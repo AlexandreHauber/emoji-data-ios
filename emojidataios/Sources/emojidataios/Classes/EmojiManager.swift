@@ -18,7 +18,7 @@ class EmojiManager {
 
   init() {
 
-    guard let emojisListFilePath = Bundle(for: EmojiManager.self).path(forResource: "emojilist", ofType: "json") else {
+      guard let emojisListFilePath = Bundle(url: emojidataiosBundle.bundleURL)!.path(forResource: "emojilist", ofType: "json") else {
       print("emojilist.json was not found")
       return
     }
