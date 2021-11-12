@@ -1,5 +1,5 @@
 PODS:
-  - emojidataios (0.5.0)
+  - emojidataios (0.6.0)
   - Nimble (7.3.4)
   - Quick (1.2.0)
 
@@ -18,10 +18,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  emojidataios: d77f2b4bb71003dc6e207c423417808dff4b47db
+  emojidataios: a6c4a52a21e49d37bbb30eb56822538569b0ab32
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
 
 PODFILE CHECKSUM: 5318cb7e230f40d069a906d67b6d7515ae187e1a
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.11.2

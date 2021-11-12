@@ -24,8 +24,8 @@ Parses your emojis from Unicode to aliases, and vice versa. Based on emoji-data
   s.ios.deployment_target = '8.0'
   s.watchos.deployment_target = '5.0'
 
-  s.source_files = 'emojidataios/Classes/**/*'
+  s.source_files = 'Sources/emojidataios/**/*'
   
-  s.resources = ['emojidataios/Assets/*', 'emojidataios/*.json']
+  s.resources = ['Sources/emojidataios/Assets/*', 'emojidataios/*.json']
   s.swift_version = '5.0'
 end
